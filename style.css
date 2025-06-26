@@ -1,0 +1,93 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffdab9;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #ffdab9;
+  color: #333;
+}
+
+h2 {
+  color: #b22222;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.nigga-header {
+  background: #8b0000;
+  padding: 20px 0px;
+  text-shadow: 2px 2px 4px #000;
+  font-size: 28.8px;
+  align-items: center;
+  color: white;
+}
+
+img {
+  width: 150px;
+  margin: 20px;
+  animation: rotate 10s linear infinite;
+}
+
+.nigga-messagebox {
+  margin: 30px auto;
+  padding: 20px;
+  width: 600px;
+  background: #fefbd8;
+  box-shadow: 4px 4px 8px;
+  align-items: center;
+  border-radius: 15px;
+  border: 2px dashed #b22222;
+}
+
+.nigga-messagebox p {
+  font-size: 18.2px;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nigga-messagebox textarea {
+  width: 500px;
+  height: 150px;
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #b22222;
+  resize: none;
+}
+
+#submit-button {
+  background-color: #8b0000;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14.4px;
+  text-shadow: 2px 2px 2px #000;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+#submit-button:hover {
+  box-shadow: 5px 6px 0px rgb(0, 0, 0);
+  background-color: #b22222;
+}
+
+footer {
+  background-color: #8b0000;
+  margin: 20px 0px;
+  padding: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px #000;
+  font-size: 0.9em;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
