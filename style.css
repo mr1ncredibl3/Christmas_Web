@@ -32,7 +32,7 @@ img {
 .nigga-messagebox {
   margin: 30px auto;
   padding: 20px;
-  width: 600px;
+  max-width: 600px;
   background: #fefbd8;
   box-shadow: 4px 4px 8px;
   align-items: center;
@@ -47,13 +47,13 @@ img {
 }
 
 .nigga-messagebox textarea {
-  width: 500px;
-  height: 150px;
+  height: 15vh;
   margin: 15px 0;
   padding: 10px;
   border-radius: 10px;
   border: 2px solid #b22222;
   resize: none;
+  width: 90%;
 }
 
 #submit-button {
